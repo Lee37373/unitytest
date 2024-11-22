@@ -18,8 +18,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -46,13 +48,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11394}
     - Class: 114
+      Script: {instanceID: 11434}
+    - Class: 114
       Script: {instanceID: 11816}
+    - Class: 114
+      Script: {instanceID: 12200}
     - Class: 114
       Script: {instanceID: 12676}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 12866}
     - Class: 114
-      Script: {instanceID: 13338}
+      Script: {instanceID: 13026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -60,6 +66,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -394,6 +402,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 4ce15e99c635d2567873d27549d1f16f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: test
+  - hash:
+      serializedVersion: 2
       Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -488,12 +502,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 4ce15e99c635d2567873d27549d1f16f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: test
   platform: 24
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
